@@ -239,7 +239,30 @@
       flex-shrink: 0;
     }
 
-    /* ===== OBJECTIONS ===== */
+    /* ===== TESTIMONIALS ===== */
+    .testimonials {
+      padding: 40px 0 0;
+    }
+
+    .testi-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 16px;
+      max-width: 560px;
+      margin: 0 auto;
+    }
+
+    .testi-grid img {
+      width: 100%;
+      max-width: 260px;
+      border-radius: 14px;
+      border: 1px solid rgba(255,255,255,0.08);
+      box-shadow: 0 12px 32px rgba(0,0,0,0.4);
+      display: block;
+    }
+
+    /* ===== OBJECTIONS / FAQ ===== */
     .objections {
       padding: 40px 0 0;
     }
@@ -521,9 +544,8 @@
       </div>
     </div>
 
-    <!-- CTA #1 — above the fold -->
-    <a href="https://fp-negocios-digitais.mycartpanda.com/checkout/210844489:1" class="cta">Assistir Filme Completo &mdash; R$5,90</a>
-    <span class="cta-micro"><svg viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>Acesso na hora &bull; Sem mensalidade</span>
+    <!-- CTA #1 — above the fold (price removed from label, no micro-copy below) -->
+    <a href="https://fp-negocios-digitais.mycartpanda.com/checkout/210844489:1" class="cta">Assistir Filme Completo</a>
   </section>
 
   <!-- ====== VIDEO ====== -->
@@ -554,23 +576,14 @@
     </ul>
   </section>
 
-  <!-- ====== OBJECTIONS ====== -->
-  <section class="objections">
-    <p class="section-label">Perguntas frequentes</p>
-    <h2 class="section-title">Tudo o que você precisa saber</h2>
-    <div class="obj-grid">
-      <div class="obj-card">
-        <p class="obj-q">"É seguro pagar por aqui?"</p>
-        <p class="obj-a">Sim. O pagamento é processado pela CartPanda, plataforma com criptografia SSL e certificação PCI. Aceita Pix, cartão de crédito e boleto.</p>
-      </div>
-      <div class="obj-card">
-        <p class="obj-q">"Como eu recebo o acesso ao filme?"</p>
-        <p class="obj-a">Na hora. Assim que o pagamento for confirmado, você recebe o link de acesso por e-mail e já pode assistir — não precisa baixar nada.</p>
-      </div>
-      <div class="obj-card">
-        <p class="obj-q">"Só R$5,90? Tem pegadinha?"</p>
-        <p class="obj-a">Nenhuma. É pagamento único, sem assinatura, sem cobrança recorrente. Você paga uma vez e assiste pra sempre.</p>
-      </div>
+  <!-- ====== TESTIMONIALS ====== -->
+  <section class="testimonials">
+    <p class="section-label">Depoimentos</p>
+    <h2 class="section-title">Quem comprou, aprovou</h2>
+    <div class="testi-grid">
+      <img src="assets/testimonials/depoimento-1.png" alt="Depoimento de cliente satisfeita com o filme" loading="lazy">
+      <img src="assets/testimonials/depoimento-2.png" alt="Depoimento de cliente satisfeita com o filme" loading="lazy">
+      <img src="assets/testimonials/depoimento-3.png" alt="Depoimento de cliente satisfeita com o filme" loading="lazy">
     </div>
   </section>
 
@@ -622,6 +635,26 @@
             100% online
           </div>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== FAQ — now below the offer card ====== -->
+  <section class="objections">
+    <p class="section-label">Perguntas frequentes</p>
+    <h2 class="section-title">Tudo o que você precisa saber</h2>
+    <div class="obj-grid">
+      <div class="obj-card">
+        <p class="obj-q">"É seguro pagar por aqui?"</p>
+        <p class="obj-a">Sim. O pagamento é processado pela CartPanda, plataforma com criptografia SSL e certificação PCI. Aceita Pix, cartão de crédito e boleto.</p>
+      </div>
+      <div class="obj-card">
+        <p class="obj-q">"Como eu recebo o acesso ao filme?"</p>
+        <p class="obj-a">Na hora. Assim que o pagamento for confirmado, você recebe o link de acesso por e-mail e já pode assistir — não precisa baixar nada.</p>
+      </div>
+      <div class="obj-card">
+        <p class="obj-q">"Só R$5,90? Tem pegadinha?"</p>
+        <p class="obj-a">Nenhuma. É pagamento único, sem assinatura, sem cobrança recorrente. Você paga uma vez e assiste pra sempre.</p>
       </div>
     </div>
   </section>
