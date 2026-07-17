@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx skills *)",
+      "Bash(mkdir -p \"C:\\\\Users\\\\pepe\\\\Desktop\\\\MONEY\\\\PROJETO 1\\\\.claude\")",
+      "Bash(git ls-remote *)",
+      "Bash(echo \"EXIT:$?\")",
+      "Bash(git init *)",
+      "Bash(git branch *)",
+      "Bash(git remote *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git config *)",
+      "Bash(git push *)"
+    ]
+  }
+}
